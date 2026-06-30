@@ -165,7 +165,7 @@ This licence statement applies only after all relevant copyright holders, includ
 
 When referencing this software in a report, deliverable or publication, use:
 
-> `Digiser, Riech & Nebel` (2026). *CIRCULAR DESIGNer*. Version `1.0.0`. Repository: `10.5281/zenodo.21030411`.
+> `Digiser, Riech & Nebel` (2026). *Circular DESIGNer*. Version `1.0.0`. Repository: `10.5281/zenodo.21030411`.
 
 Please also cite the applicable Catena-X semantic-model, AAS API, BPDM, BPN Discovery and Tractus-X SDK documentation used for the specific deployment or release.
 
