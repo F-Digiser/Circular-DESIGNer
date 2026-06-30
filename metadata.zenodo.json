@@ -1,0 +1,35 @@
+{
+  "title": "Circular DESIGNer",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Source code for the application developed in the EU-funded ZEvRA project.",
+  "creators": [
+    {
+      "name": "Digiser, Felix",
+      "affiliation": "Institute for Engineering Design, Technische Universität Braunschweig",
+      "orcid": "0009-0007-0006-0715"
+    },
+    {
+      "name": "Riech, Julius-David",
+      "affiliation": "Fraunhofer IWU",
+      "orcid": "0009-0000-5547-325X"
+    },
+    {
+      "name": "Nebel, Daniel",
+      "affiliation": "Fraunhofer IWU",
+      "orcid": "0000-0002-9753-5161"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "access_right": "open",
+  "keywords": [
+    "ZEvRA",
+    "software",
+    "application"
+  ],
+  "grants": [
+    {
+      "id": "101138034"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+    "materials": {
+        "DC_01": {
+            "recycling_percentage": 75,
+            "recyclate_content": 0,
+            "recycling_criticality": false,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": true,
+            "availability": "Regionally",
+            "density [kg/mm^3]": 7.85e-06
+        },
+        "PLASTIC_PA66": {
+            "recycling_percentage": 30,
+            "recyclate_content": 0,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": true,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": false,
+            "availability": "Nationally",
+            "density [kg/mm^3]": 1.13e-06
+        },
+        "PP_GF_30": {
+            "recycling_percentage": 0,
+            "recyclate_content": 0,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": true,
+            "monomaterial": false,
+            "additives_or_fillers": true,
+            "surface_coatings": true,
+            "availability": "Nationally",
+            "density [kg/mm^3]": 1.12e-06
+        },
+        "S235JR": {
+            "recycling_percentage": 80,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 7.85e-06,
+            "recycling_criticality": false,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": true,
+            "availability": "Regionally"
+        },
+        "EN_AW_6016": {
+            "recycling_percentage": 95,
+            "recyclate_content": 50,
+            "density [kg/mm^3]": 2.7e-06,
+            "recycling_criticality": false,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": true,
+            "availability": "Nationally"
+        },
+        "DP600": {
+            "recycling_percentage": 80,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 7.7e-06,
+            "recycling_criticality": false,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": true,
+            "additives_or_fillers": true,
+            "surface_coatings": false,
+            "availability": "Regionally"
+        },
+        "TPU": {
+            "recycling_percentage": 30,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 1.4e-06,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": true,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": false,
+            "availability": "Nationally"
+        },
+        "PLASTIC_PA6": {
+            "recycling_percentage": 30,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 1.13e-06,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": true,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": false,
+            "availability": "Nationally"
+        },
+        "PBT": {
+            "recycling_percentage": 30,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 1.3e-06,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": true,
+            "monomaterial": true,
+            "additives_or_fillers": true,
+            "surface_coatings": false,
+            "availability": "Nationally"
+        },
+        "PE": {
+            "recycling_percentage": 30,
+            "recyclate_content": 0,
+            "recycling_criticality": false,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": false,
+            "availability": "Nationally",
+            "density [kg/mm^3]": 9.5e-07
+        },
+        "PA6_GF_40": {
+            "recycling_percentage": 0,
+            "recyclate_content": 0,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": true,
+            "monomaterial": false,
+            "additives_or_fillers": true,
+            "surface_coatings": false,
+            "availability": "Nationally",
+            "density [kg/mm^3]": 1.46e-06
+        },
+        "ARALDITE_2011": {
+            "recycling_percentage": 0,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 1.05e-06,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": true,
+            "monomaterial": false,
+            "additives_or_fillers": true,
+            "surface_coatings": false,
+            "availability": "Nationally"
+        },
+        "PP_GF_50": {
+            "recycling_percentage": 0,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 1.34e-06,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": true,
+            "monomaterial": false,
+            "additives_or_fillers": true,
+            "surface_coatings": false,
+            "availability": "Nationally"
+        },
+        "STEEL_1.4526": {
+            "recycling_percentage": 75,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 7.7e-06,
+            "recycling_criticality": false,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": false,
+            "availability": "Regionally"
+        },
+        "PA6": {
+            "recycling_percentage": 0,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 1.14e-06,
+            "recycling_criticality": false,
+            "environmental_harmfulness": false,
+            "health_harmfulness": true,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": false,
+            "availability": "Nationally"
+        },
+        "PA6 GF30": {
+            "bpnl": "BPNL000000000001",
+            "bpnl_source": "bpn-discovery",
+            "bpns": "BPNS000000000111",
+            "bpna": "BPNA000000000001",
+            "manufacturer_part_id": "MAT-4711",
+            "part_instance_id": null,
+            "lifecycle": "AsPlanned",
+            "material_name": "PA6 GF30",
+            "candidate_site_bpnss": [
+                "BPNS000000000111"
+            ],
+            "recycling_percentage": 20,
+            "recyclate_content": 0,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": true,
+            "monomaterial": false,
+            "additives_or_fillers": true,
+            "surface_coatings": false,
+            "availability": "Other continent",
+            "density [kg/mm^3]": 1.36e-06,
+            "CO2eq [kg]": null,
+            "raw": {
+                "part_type_information": {
+                    "manufacturerPartId": "MAT-4711",
+                    "partTypeInformation": {
+                        "manufacturerPartId": "MAT-4711",
+                        "nameAtManufacturer": "PA6 GF30"
+                    },
+                    "partSitesInformationAsPlanned": [
+                        {
+                            "function": "Production",
+                            "catenaXsiteId": "BPNS000000000111"
+                        }
+                    ]
+                },
+                "smc_semantic_id": "urn:samm:io.catenax.secondary_material_content_calculated:1.0.0#SecondaryMaterialContentCalculated",
+                "smc": {
+                    "secondaryMaterialContent": [
+                        {
+                            "secondaryMaterialContentPercentage": 32.5,
+                            "materialName": "Recycled polymer share"
+                        }
+                    ]
+                },
+                "chemical_material_passport": {
+                    "hazardAssessment": {
+                        "overallAssessment": "Contains substances hazardous to aquatic environment"
+                    },
+                    "transport": {
+                        "transportClass": "notRegulated"
+                    },
+                    "disposal": {
+                        "disposalRecommendation": "Follow local regulations"
+                    },
+                    "safety": {
+                        "ppe": "gloves"
+                    },
+                    "compliance": {
+                        "reach": "declared"
+                    },
+                    "substanceOfConcern": [
+                        {
+                            "name": "Additive X",
+                            "location": "matrix",
+                            "concentration": 0.8,
+                            "hazardClassification": {
+                                "category": "Aquatic Chronic 2",
+                                "remarks": "Toxic to aquatic life with long lasting effects"
+                            }
+                        }
+                    ]
+                },
+                "bpdm_site": {
+                    "bpns": "BPNS000000000111",
+                    "name": "PolyChem Stuttgart Plant",
+                    "mainAddress": {
+                        "bpna": "BPNA000000000001"
+                    },
+                    "legalEntity": "BPNL000000000001"
+                },
+                "bpdm_address": {
+                    "bpna": "BPNA000000000001",
+                    "name": "PolyChem Materials GmbH",
+                    "physicalPostalAddress": {
+                        "streetName": "Industriestrasse",
+                        "houseNumber": "7",
+                        "zipCode": "70173",
+                        "cityName": "Stuttgart",
+                        "countryAlpha2": "DE"
+                    }
+                }
+            }
+        },
+        "Litecore": {
+            "recycling_percentage": 85,
+            "recyclate_content": 22.4,
+            "density [kg/mm^3]": 3.5e-06,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": false,
+            "additives_or_fillers": true,
+            "surface_coatings": true,
+            "availability": "Same continent"
+        },
+        "High Strength Steel": {
+            "recycling_percentage": 90,
+            "recyclate_content": 25,
+            "density [kg/mm^3]": 7.85e-06,
+            "recycling_criticality": false,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": false,
+            "availability": "Other continent"
+        },
+        "PP": {
+            "recycling_percentage": 41,
+            "recyclate_content": 12.6,
+            "density [kg/mm^3]": 9e-07,
+            "recycling_criticality": false,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": true,
+            "additives_or_fillers": false,
+            "surface_coatings": false,
+            "availability": "Other continent"
+        },
+        "EPDM rubber": {
+            "recycling_percentage": 0,
+            "recyclate_content": 0,
+            "density [kg/mm^3]": 1.2e-06,
+            "recycling_criticality": true,
+            "environmental_harmfulness": true,
+            "health_harmfulness": false,
+            "monomaterial": true,
+            "additives_or_fillers": true,
+            "surface_coatings": false,
+            "availability": "Other continent"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+cadquery==2.6.0
+matplotlib==3.10.1
+PyQt5==5.15.11
+requests==2.32.5
+fastapi==0.120.4
+pydantic==2.12.5
+uvicorn==0.34.3
+tractusx-sdk==0.7.1
+pyinstaller==6.19.0

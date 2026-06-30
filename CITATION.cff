@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+
+type: software
+title: "Circular DESIGNer"
+version: "1.0.0"
+date-released: "2026-06-30"
+
+abstract: "Circular-DESIGNer is a prototype desktop and Python-based tool for working with circular-design data. It supports STEP-based assembly processing, material-data handling, and calculation-oriented workflows such as volume and mass calculation."
+
+authors:
+
+* family-names: "Digiser"
+  given-names: "Felix"
+  affiliation: "Institute for Engineering Design, Technische Universität Braunschweig"
+  orcid: "https://orcid.org/0009-0007-0006-0715"
+
+* family-names: "Riech"
+  given-names: "Julius-David"
+  affiliation: "Fraunhofer Institute for Machine Tools and Forming Technology"
+  orcid: "https://orcid.org/0009-0000-5547-325X"
+
+* family-names: "Nebel"
+  given-names: "Daniel"
+  affiliation: "Fraunhofer Institute for Machine Tools and Forming Technology"
+  orcid: "https://orcid.org/0000-0002-9753-5161"
+
+* name: "Circular DESIGNer"
+
+license: "GPL-3.0-only"
+
+repository-code: "https://github.com/F-Digiser/Circular-DESIGNer"
+url: "https://github.com/F-Digiser/Circular-DESIGNer"
+
+keywords:
+
+* "ZEvRA"
+* "circular economy"
+* "research software"
+
+doi: "10.5281/zenodo.21030411"

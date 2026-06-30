@@ -1,0 +1,548 @@
+{
+    "project_name": "cable_clamp_assembly",
+    "version": "1",
+    "data": [
+        {
+            "id": "fb73f15a-63f3-4e18-bf43-f679439ec188",
+            "name": "CABLE_CLAMP_ASSEMBLY",
+            "volume [mm^3]": 78285.69888174173,
+            "density [kg/mm^3]": null,
+            "material": null,
+            "mass [kg]": 0.043613075902371214,
+            "total mass [kg]": 0.14805199641502442,
+            "components": [
+                {
+                    "id": "840827bf-63a2-4288-b45f-f24efe6efbc5",
+                    "name": "CABLE_CLAMP_BASE_PA66",
+                    "volume [mm^3]": 38595.64239147895,
+                    "density [kg/mm^3]": 1.13e-06,
+                    "material": "PLASTIC_PA66",
+                    "mass [kg]": 0.043613075902371214,
+                    "total mass [kg]": 0.043613075902371214,
+                    "components": [],
+                    "basic_parameters": {
+                        "lifespan [a]": "10",
+                        "standard_component": "No",
+                        "classification": "Clamp Components"
+                    },
+                    "assessed": true,
+                    "disassembly_parameters": {
+                        "assigned_connections": {
+                            "CABLE_CLAMP_COVER": {
+                                "Screwing": {
+                                    "amount": 2,
+                                    "non_destructive": true,
+                                    "ageing": true,
+                                    "tool": "Screwdriver",
+                                    "detachment_time": 10
+                                }
+                            }
+                        },
+                        "is_joining_component": false,
+                        "covered_by": [
+                            "CABLE_CLAMP_COVER"
+                        ],
+                        "joining_components": []
+                    },
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "PLASTIC_PA66",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "PLASTIC_PA66": {},
+                        "assessed_material": "PLASTIC_PA66"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "No",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "No",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "cabd30b4-2e23-4b1f-ac17-3bf34dff81f8",
+                    "name": "CABLE_CLAMP_COVER",
+                    "volume [mm^3]": 30822.62246070081,
+                    "density [kg/mm^3]": 1.13e-06,
+                    "material": "PLASTIC_PA66",
+                    "mass [kg]": 0.03482956338059192,
+                    "total mass [kg]": 0.03482956338059192,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {
+                            "CABLE_CLAMP_BASE_PA66": {
+                                "Screwing": {
+                                    "ageing": true,
+                                    "amount": 2,
+                                    "detachment_time": 10,
+                                    "non_destructive": true,
+                                    "tool": "Screwdriver"
+                                }
+                            }
+                        },
+                        "is_joining_component": false,
+                        "covered_by": [],
+                        "joining_components": []
+                    },
+                    "basic_parameters": {
+                        "lifespan [a]": "10",
+                        "standard_component": "No",
+                        "classification": "Clamp Components"
+                    },
+                    "assessed": true,
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "PLASTIC_PA66",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "PLASTIC_PA66": {},
+                        "assessed_material": "PLASTIC_PA66"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "No",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "No",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "abd16cac-f9e8-4240-893b-16c568d0c909",
+                    "name": "PLAIN_WASHER_M8_1",
+                    "volume [mm^3]": 233.03077667267652,
+                    "density [kg/mm^3]": 7.85e-06,
+                    "material": "S235JR",
+                    "mass [kg]": 0.0018292915968805105,
+                    "total mass [kg]": 0.0018292915968805105,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {},
+                        "is_joining_component": true,
+                        "covered_by": [
+                            "CABLE_CLAMP_COVER",
+                            "SOCKET_HEAD_CAP_SCREW_M8X35_1"
+                        ],
+                        "joining_components": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "CABLE_CLAMP_COVER"
+                        ]
+                    },
+                    "basic_parameters": {
+                        "lifespan [a]": "12",
+                        "standard_component": "Yes",
+                        "classification": "Plain Washers"
+                    },
+                    "assessed": true,
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "S235JR",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "S235JR": {},
+                        "assessed_material": "S235JR"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "Yes",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "Yes",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "fbc0dbfa-90fd-44b5-8adf-6df2a25a4abe",
+                    "name": "SOCKET_HEAD_CAP_SCREW_M8X35_1",
+                    "volume [mm^3]": 3360.1113093540757,
+                    "density [kg/mm^3]": 7.85e-06,
+                    "material": "S235JR",
+                    "mass [kg]": 0.026376873778429493,
+                    "total mass [kg]": 0.026376873778429493,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {},
+                        "is_joining_component": true,
+                        "covered_by": [],
+                        "joining_components": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "CABLE_CLAMP_COVER"
+                        ]
+                    },
+                    "basic_parameters": {
+                        "lifespan [a]": "12",
+                        "standard_component": "Yes",
+                        "classification": "Socket Head Cap Screws"
+                    },
+                    "assessed": true,
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "S235JR",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "S235JR": {},
+                        "assessed_material": "S235JR"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "Yes",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "Yes",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "7141be48-b01b-4c34-94cb-6f4fd7509722",
+                    "name": "PLAIN_WASHER_M8_2",
+                    "volume [mm^3]": 233.03077667267652,
+                    "density [kg/mm^3]": 7.85e-06,
+                    "material": "S235JR",
+                    "mass [kg]": 0.0018292915968805105,
+                    "total mass [kg]": 0.0018292915968805105,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {},
+                        "is_joining_component": true,
+                        "covered_by": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "HEX_NUT_M8_1"
+                        ],
+                        "joining_components": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "CABLE_CLAMP_COVER"
+                        ]
+                    },
+                    "basic_parameters": {
+                        "lifespan [a]": "12",
+                        "standard_component": "Yes",
+                        "classification": "Plain Washers"
+                    },
+                    "assessed": true,
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "S235JR",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "S235JR": {},
+                        "assessed_material": "S235JR"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "Yes",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "Yes",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "0f4e5339-3037-4e7a-8ee3-8c6e732ab020",
+                    "name": "HEX_NUT_M8_1",
+                    "volume [mm^3]": 607.5441520815457,
+                    "density [kg/mm^3]": 7.85e-06,
+                    "material": "S235JR",
+                    "mass [kg]": 0.004769221593840133,
+                    "total mass [kg]": 0.004769221593840133,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {},
+                        "is_joining_component": true,
+                        "covered_by": [
+                            "CABLE_CLAMP_BASE_PA66"
+                        ],
+                        "joining_components": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "CABLE_CLAMP_COVER"
+                        ]
+                    },
+                    "basic_parameters": {
+                        "lifespan [a]": "12",
+                        "standard_component": "Yes",
+                        "classification": "Hex Nuts"
+                    },
+                    "assessed": true,
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "S235JR",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "S235JR": {},
+                        "assessed_material": "S235JR"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "Yes",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "Yes",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "852214a6-9fd4-41dc-8644-dceb975cbb28",
+                    "name": "PLAIN_WASHER_M8_3",
+                    "volume [mm^3]": 233.03077667267652,
+                    "density [kg/mm^3]": 7.85e-06,
+                    "material": "S235JR",
+                    "mass [kg]": 0.0018292915968805105,
+                    "total mass [kg]": 0.0018292915968805105,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {},
+                        "is_joining_component": true,
+                        "covered_by": [
+                            "CABLE_CLAMP_COVER",
+                            "SOCKET_HEAD_CAP_SCREW_M8X35_2"
+                        ],
+                        "joining_components": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "CABLE_CLAMP_COVER"
+                        ]
+                    },
+                    "basic_parameters": {
+                        "lifespan [a]": "12",
+                        "standard_component": "Yes",
+                        "classification": "Plain Washers"
+                    },
+                    "assessed": true,
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "S235JR",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "S235JR": {},
+                        "assessed_material": "S235JR"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "Yes",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "Yes",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "8ec1adc1-07cd-423f-942e-1815e5d569d1",
+                    "name": "SOCKET_HEAD_CAP_SCREW_M8X35_2",
+                    "volume [mm^3]": 3360.1113093540757,
+                    "density [kg/mm^3]": 7.85e-06,
+                    "material": "S235JR",
+                    "mass [kg]": 0.026376873778429493,
+                    "total mass [kg]": 0.026376873778429493,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {},
+                        "is_joining_component": true,
+                        "covered_by": [],
+                        "joining_components": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "CABLE_CLAMP_COVER"
+                        ]
+                    },
+                    "basic_parameters": {
+                        "lifespan [a]": "12",
+                        "standard_component": "Yes",
+                        "classification": "Socket Head Cap Screws"
+                    },
+                    "assessed": true,
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "S235JR",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "S235JR": {},
+                        "assessed_material": "S235JR"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "Yes",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "Yes",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "ab1f7724-dd11-485c-ab68-c3edd007990c",
+                    "name": "PLAIN_WASHER_M8_4",
+                    "volume [mm^3]": 233.03077667267652,
+                    "density [kg/mm^3]": 7.85e-06,
+                    "material": "S235JR",
+                    "mass [kg]": 0.0018292915968805105,
+                    "total mass [kg]": 0.0018292915968805105,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {},
+                        "is_joining_component": true,
+                        "covered_by": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "HEX_NUT_M8_2"
+                        ],
+                        "joining_components": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "CABLE_CLAMP_COVER"
+                        ]
+                    },
+                    "basic_parameters": {
+                        "lifespan [a]": "12",
+                        "standard_component": "Yes",
+                        "classification": "Plain Washers"
+                    },
+                    "assessed": true,
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "S235JR",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "S235JR": {},
+                        "assessed_material": "S235JR"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "Yes",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "Yes",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "a6c81fce-aa95-4f55-8495-a848a41db8f7",
+                    "name": "HEX_NUT_M8_2",
+                    "volume [mm^3]": 607.5441520815457,
+                    "density [kg/mm^3]": 7.85e-06,
+                    "material": "S235JR",
+                    "mass [kg]": 0.004769221593840133,
+                    "total mass [kg]": 0.004769221593840133,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {},
+                        "is_joining_component": true,
+                        "covered_by": [],
+                        "joining_components": [
+                            "CABLE_CLAMP_BASE_PA66",
+                            "CABLE_CLAMP_COVER"
+                        ]
+                    },
+                    "basic_parameters": {
+                        "lifespan [a]": "12",
+                        "standard_component": "Yes",
+                        "classification": "Hex Nuts"
+                    },
+                    "assessed": true,
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "S235JR",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "S235JR": {},
+                        "assessed_material": "S235JR"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "Yes",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "Yes",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "Yes",
+                        "accessibility_critical_raw_materials": "Yes",
+                        "recognizability_disposal": "Yes",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                }
+            ]
+        }
+    ],
+    "classification": "Two-Part Cable Clamp Assembly"
+}

@@ -1,0 +1,171 @@
+/* Main Window */
+QMainWindow {
+    background-color: #F0F5F1; /* Light, clean background to keep it modern */
+    color: #333333; /* Neutral text color */
+    border: 1px solid #A6A6A6; /* Soft border to define edges */
+}
+
+/* Menu Bar */
+QMenuBar {
+    background-color: #E6F7F5; /* Light blue for menu bar, symbolizing clean technology */
+    color: #333333;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    color: #333333;
+}
+
+QMenuBar::item:selected {
+    background-color: #A6D9C4; /* Light green for hover effect */
+    color: #FFFFFF;
+}
+
+/* Menu */
+QMenu {
+    background-color: #FFFFFF; /* White menu to maintain a professional look */
+    border: 1px solid #A6A6A6;
+}
+
+QMenu::item:selected {
+    background-color: #A6D9C4; /* Consistent hover effect with green accent */
+    color: #FFFFFF;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #A6D9C4; /* Eco-friendly green for buttons */
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #81B69D; /* Slightly darker green border */
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #81B69D; /* Darker green on hover */
+    border: 1px solid #609682;
+}
+
+QPushButton:pressed {
+    background-color: #5A8F77; /* Even darker green when pressed */
+    border: 1px solid #48705A;
+}
+
+/* Labels */
+QLabel {
+    color: #333333; /* Neutral dark text color */
+    font-size: 14px;
+    padding: 5px;
+}
+
+/* LineEdits (Input Fields) */
+QLineEdit {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 1px solid #A6A6A6;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #81B69D; /* Green border when focused */
+}
+
+/* Tables */
+QTableWidget {
+    background-color: #FFFFFF;
+    border: 1px solid #A6A6A6;
+    gridline-color: #A6A6A6;
+    font-size: 14px;
+    color: #333333;
+}
+
+QHeaderView::section {
+    background-color: #A6D9C4;
+    color: black;
+    padding: 6px;
+    border: 1px solid #81B69D;
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+QTableWidget::item:selected {
+    background-color: #E6F7F5; /* Light blue for selected rows */
+    color: #333333;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    border: none;
+    background-color: #E6F7F5;
+    width: 12px;
+    margin: 20px 0 20px 0;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #81B69D; /* Green scrollbar handle */
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+/* Progress Bars */
+QProgressBar {
+    border: 1px solid #81B69D;
+    border-radius: 5px;
+    background-color: #E6F7F5;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #A6D9C4; /* Green progress chunk */
+    width: 20px;
+}
+
+/* Checkboxes */
+QCheckBox {
+    color: #333333;
+    font-size: 14px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #81B69D;
+    border: 1px solid #609682;
+}
+
+QCheckBox::indicator:unchecked {
+    background-color: #FFFFFF;
+    border: 1px solid #A6A6A6;
+}
+
+/* Radio Buttons */
+QRadioButton {
+    color: #333333;
+    font-size: 14px;
+}
+
+QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #81B69D;
+    border: 1px solid #609682;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color: #FFFFFF;
+    border: 1px solid #A6A6A6;
+}

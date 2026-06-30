@@ -1,0 +1,749 @@
+[
+    {
+        "number": "4.1",
+        "name": "Assembly",
+        "context": "General process of putting parts together.",
+        "sub_connections": [
+            {
+                "number": "4.1.1",
+                "name": "Laying, Placing, Layering",
+                "context": "Stacking layers of material in construction.",
+                "sub_connections": [],
+                "assembly_time": 1.8
+            },
+            {
+                "number": "4.1.2",
+                "name": "Inserting, Insetting",
+                "context": "Placing a dowel into a hole.",
+                "sub_connections": [],
+                "assembly_time": 1.8
+            },
+            {
+                "number": "4.1.3",
+                "name": "Interlocking",
+                "context": "Connecting pieces with interlocking features.",
+                "sub_connections": [],
+                "assembly_time": 1.8
+            },
+            {
+                "number": "4.1.4",
+                "name": "Hanging",
+                "context": "Suspending objects from a support structure.",
+                "sub_connections": [],
+                "assembly_time": 1.8
+            },
+            {
+                "number": "4.1.5",
+                "name": "Aligning",
+                "context": "Ensuring parts are positioned correctly.",
+                "sub_connections": [],
+                "assembly_time": 1.8
+            },
+            {
+                "number": "4.1.6",
+                "name": "Springing",
+                "context": "Using springs to hold components in place.",
+                "sub_connections": [],
+                "assembly_time": 2.52
+            }
+        ]
+    },
+    {
+        "number": "4.2",
+        "name": "Filling",
+        "context": "Filling gaps with material for stability.",
+        "sub_connections": [
+            {
+                "number": "4.2.1",
+                "name": "Filling",
+                "context": "Using foam to fill cavities in packaging.",
+                "sub_connections": [],
+                "assembly_time": 6.12
+            },
+            {
+                "number": "4.2.2",
+                "name": "Soaking, Impregnating",
+                "context": "Treating wood with preservatives.",
+                "sub_connections": [],
+                "assembly_time": 396.12
+            }
+        ]
+    },
+    {
+        "number": "4.3",
+        "name": "Applying, Pressing In",
+        "context": "Techniques for creating tight fits.",
+        "sub_connections": [
+            {
+                "number": "4.3.1",
+                "name": "Screwing",
+                "context": "Using screws to join two pieces together.",
+                "sub_connections": [],
+                "assembly_time": 7.56
+            },
+            {
+                "number": "4.3.2",
+                "name": "Clamping",
+                "context": "Holding parts in place during assembly.",
+                "sub_connections": [],
+                "assembly_time": 2.52
+            },
+            {
+                "number": "4.3.3",
+                "name": "Stapling",
+                "context": "Using staples to attach fabric together.",
+                "sub_connections": [],
+                "assembly_time": 7.56
+            },
+            {
+                "number": "4.3.4",
+                "name": "Fastening through Press Connection",
+                "context": "Generally used in manufacturing processes.",
+                "sub_connections": [
+                    {
+                        "number": "4.3.4.1",
+                        "name": "Fastening through Pressing In",
+                        "context": "Inserting components with pressure.",
+                        "sub_connections": [],
+                        "assembly_time": 2.52
+                    },
+                    {
+                        "number": "4.3.4.2",
+                        "name": "Fastening through Shrinking",
+                        "context": "Shrinking a material to fit another.",
+                        "sub_connections": [],
+                        "assembly_time": 107.56
+                    },
+                    {
+                        "number": "4.3.4.3",
+                        "name": "Fastening through Stretching",
+                        "context": "Stretching a material to create tension.",
+                        "sub_connections": [],
+                        "assembly_time": 307.56
+                    }
+                ],
+                "assembly_time": 2.52
+            },
+            {
+                "number": "4.3.5",
+                "name": "Nailing, Driving In",
+                "context": "Using nails to secure wood pieces together.",
+                "sub_connections": [],
+                "assembly_time": 7.56
+            },
+            {
+                "number": "4.3.6",
+                "name": "Wedging",
+                "context": "Inserting wedges to hold components in place.",
+                "sub_connections": [],
+                "assembly_time": 6.12
+            },
+            {
+                "number": "4.3.7",
+                "name": "Tensioning",
+                "context": "Applying tension to secure parts.",
+                "sub_connections": [],
+                "assembly_time": 11.16
+            }
+        ]
+    },
+    {
+        "number": "4.4",
+        "name": "Fastening through Forming",
+        "context": "Creating shapes to join materials.",
+        "sub_connections": [
+            {
+                "number": "4.4.1",
+                "name": "Casting",
+                "context": "Molding metal to create parts.",
+                "sub_connections": [],
+                "assembly_time": 3607.56
+            },
+            {
+                "number": "4.4.2",
+                "name": "Embedding",
+                "context": "Encasing components in a substrate.",
+                "sub_connections": [
+                    {
+                        "number": "4.4.2.1",
+                        "name": "Overmolding",
+                        "context": "Creating a plastic cover over a metal part.",
+                        "sub_connections": [],
+                        "assembly_time": 67.56
+                    },
+                    {
+                        "number": "4.4.2.2",
+                        "name": "Injection Molding, Casting",
+                        "context": "Producing plastic items through molds.",
+                        "sub_connections": [],
+                        "assembly_time": 3607.56
+                    },
+                    {
+                        "number": "4.4.2.3",
+                        "name": "Vulcanizing",
+                        "context": "Strengthening rubber products.",
+                        "sub_connections": [],
+                        "assembly_time": 1207.56
+                    }
+                ],
+                "assembly_time": 67.56
+            },
+            {
+                "number": "4.4.3",
+                "name": "Pouring",
+                "context": "Pouring concrete to form structures.",
+                "sub_connections": [],
+                "assembly_time": 3607.56
+            },
+            {
+                "number": "4.4.4",
+                "name": "Galvanizing",
+                "context": "Coating steel with zinc for corrosion resistance.",
+                "sub_connections": [],
+                "assembly_time": 3007.56
+            },
+            {
+                "number": "4.4.5",
+                "name": "Coating",
+                "context": "Applying paint or sealant for protection.",
+                "sub_connections": [],
+                "assembly_time": 67.56
+            },
+            {
+                "number": "4.4.6",
+                "name": "Patching",
+                "context": "Repairing holes with additional material.",
+                "sub_connections": [],
+                "assembly_time": 7.56
+            }
+        ]
+    },
+    {
+        "number": "4.5",
+        "name": "Fastening through Deformation",
+        "context": "Changing shape to create connections.",
+        "sub_connections": [
+            {
+                "number": "4.5.1",
+                "name": "Fastening through Forming Wire-Shaped Bodies",
+                "context": "Methods for binding wire.",
+                "sub_connections": [
+                    {
+                        "number": "4.5.1.1",
+                        "name": "Wire Braiding",
+                        "context": "Creating braided wire cables.",
+                        "sub_connections": [],
+                        "assembly_time": 10.08
+                    },
+                    {
+                        "number": "4.5.1.2",
+                        "name": "Twisting Together",
+                        "context": "Twisting wires for electrical connections.",
+                        "sub_connections": [],
+                        "assembly_time": 10.08
+                    },
+                    {
+                        "number": "4.5.1.3",
+                        "name": "Stranding",
+                        "context": "Combining multiple wires for strength.",
+                        "sub_connections": [],
+                        "assembly_time": 10.08
+                    },
+                    {
+                        "number": "4.5.1.4",
+                        "name": "Splicing",
+                        "context": "Joining two wires together.",
+                        "sub_connections": [],
+                        "assembly_time": 15.12
+                    },
+                    {
+                        "number": "4.5.1.5",
+                        "name": "Knotting",
+                        "context": "Tying knots to secure lines.",
+                        "sub_connections": [],
+                        "assembly_time": 15.12
+                    },
+                    {
+                        "number": "4.5.1.6",
+                        "name": "Wrapping with Wire",
+                        "context": "Wrapping wire around components for stability.",
+                        "sub_connections": [],
+                        "assembly_time": 10.08
+                    },
+                    {
+                        "number": "4.5.1.7",
+                        "name": "Wire Weaving",
+                        "context": "Creating mesh structures from wire.",
+                        "sub_connections": [],
+                        "assembly_time": 10.08
+                    },
+                    {
+                        "number": "4.5.1.8",
+                        "name": "Tacking",
+                        "context": "Temporarily fastening materials together.",
+                        "sub_connections": [],
+                        "assembly_time": 10.08
+                    }
+                ],
+                "assembly_time": 10.08
+            },
+            {
+                "number": "4.5.2",
+                "name": "Fastening through Forming Sheet, Pipe, and Profile Parts",
+                "context": "Processes for sheet metal assembly.",
+                "sub_connections": [
+                    {
+                        "number": "4.5.2.1",
+                        "name": "Fastening through Punching or Notching",
+                        "context": "Cutting shapes in metal for assembly.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.2",
+                        "name": "Together Flow Pressing",
+                        "context": "Joining metal parts through pressing.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.3",
+                        "name": "Together Drawing, Coating",
+                        "context": "Creating shapes and applying coatings.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.4",
+                        "name": "Fastening through Expanding",
+                        "context": "Expanding materials to fit connections.",
+                        "sub_connections": [
+                            {
+                                "number": "4.5.2.4.1",
+                                "name": "Tube Rolling",
+                                "context": "Forming tubes from metal sheets.",
+                                "sub_connections": [],
+                                "assembly_time": 9.72
+                            },
+                            {
+                                "number": "4.5.2.4.2",
+                                "name": "Fastening through Expanding",
+                                "context": "Similar to tube rolling; creating secure fits.",
+                                "sub_connections": [],
+                                "assembly_time": 9.72
+                            }
+                        ],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.5",
+                        "name": "Fastening through Contracting",
+                        "context": "Shrinking materials to fit together.",
+                        "sub_connections": [
+                            {
+                                "number": "4.5.2.5.1",
+                                "name": "Fastening through",
+                                "context": "(Incomplete entry)",
+                                "sub_connections": [],
+                                "assembly_time": 9.72
+                            },
+                            {
+                                "number": "4.5.2.5.2",
+                                "name": "Fastening through",
+                                "context": "(Incomplete entry)",
+                                "sub_connections": [],
+                                "assembly_time": 9.72
+                            },
+                            {
+                                "number": "4.5.2.5.3",
+                                "name": "Fastening through Beading",
+                                "context": "Creating decorative edges on materials.",
+                                "sub_connections": [],
+                                "assembly_time": 9.72
+                            }
+                        ],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.6",
+                        "name": "Fastening through Flanging",
+                        "context": "Bending edges of metal for connections.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.7",
+                        "name": "Fastening through Folding",
+                        "context": "Creating folds in materials for stability.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.8",
+                        "name": "Wrapping, Coiling, Enveloping",
+                        "context": "Encasing or securing materials with wraps.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.9",
+                        "name": "Overlapping",
+                        "context": "Layering materials to create bonds.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.10",
+                        "name": "Forming Springing",
+                        "context": "Creating spring-like connections.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.11",
+                        "name": "Interference Fastening",
+                        "context": "Using tight fits to secure parts without adhesives.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.12",
+                        "name": "Pressing",
+                        "context": "Applying pressure to join materials.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    },
+                    {
+                        "number": "4.5.2.13",
+                        "name": "Squeezing",
+                        "context": "Compressing materials for bonding.",
+                        "sub_connections": [],
+                        "assembly_time": 9.72
+                    }
+                ],
+                "assembly_time": 9.72
+            },
+            {
+                "number": "4.5.3",
+                "name": "Fastening through Riveting Methods",
+                "context": "Connecting parts using rivets.",
+                "sub_connections": [
+                    {
+                        "number": "4.5.3.1",
+                        "name": "Riveting",
+                        "context": "Securing metal plates with rivets.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    },
+                    {
+                        "number": "4.5.3.2",
+                        "name": "Hollow Riveting",
+                        "context": "Using hollow rivets for lighter assemblies.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    },
+                    {
+                        "number": "4.5.3.3",
+                        "name": "Dowel Riveting",
+                        "context": "Joining wood pieces with dowels.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    },
+                    {
+                        "number": "4.5.3.4",
+                        "name": "Hollow Dowel Riveting",
+                        "context": "Using hollow dowels for mechanical connections.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    },
+                    {
+                        "number": "4.5.3.5",
+                        "name": "Intermediate Dowel Riveting",
+                        "context": "Using dowels as intermediary joints.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    },
+                    {
+                        "number": "4.5.3.6",
+                        "name": "Punch Riveting",
+                        "context": "Punching holes for rivet insertion.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    }
+                ],
+                "assembly_time": 7.56
+            }
+        ]
+    },
+    {
+        "number": "4.6",
+        "name": "Fastening through Welding",
+        "context": "Joining metals through heat.",
+        "sub_connections": [
+            {
+                "number": "4.6.1",
+                "name": "Pressure Welding",
+                "context": "Using pressure to join materials without melting.",
+                "sub_connections": [
+                    {
+                        "number": "4.6.1.1",
+                        "name": "Pressure Welding through Solid Body",
+                        "context": "Welding solid parts under pressure.",
+                        "sub_connections": [],
+                        "assembly_time": 12.56
+                    },
+                    {
+                        "number": "4.6.1.2",
+                        "name": "Pressure Welding through Liquid",
+                        "context": "Using liquid for joining materials.",
+                        "sub_connections": [],
+                        "assembly_time": 12.56
+                    },
+                    {
+                        "number": "4.6.1.3",
+                        "name": "Pressure Welding through Gas",
+                        "context": "Using gas to create a weld.",
+                        "sub_connections": [],
+                        "assembly_time": 12.56
+                    },
+                    {
+                        "number": "4.6.1.4",
+                        "name": "Pressure Welding through Electric Discharge",
+                        "context": "Joining materials with electrical energy.",
+                        "sub_connections": [],
+                        "assembly_time": 12.56
+                    },
+                    {
+                        "number": "4.6.1.5",
+                        "name": "Pressure Welding through Radiation",
+                        "context": "Using radiation for welding connections.",
+                        "sub_connections": [],
+                        "assembly_time": 12.56
+                    },
+                    {
+                        "number": "4.6.1.6",
+                        "name": "Pressure Welding through Movement of Mass",
+                        "context": "Joining parts with the movement of heavy masses.",
+                        "sub_connections": [],
+                        "assembly_time": 12.56
+                    },
+                    {
+                        "number": "4.6.1.7",
+                        "name": "Pressure Welding through Electric Current",
+                        "context": "Using electric current for welding.",
+                        "sub_connections": [],
+                        "assembly_time": 12.56
+                    }
+                ],
+                "assembly_time": 12.56
+            },
+            {
+                "number": "4.6.2",
+                "name": "Melting Welding",
+                "context": "Fusing metals by melting them together.",
+                "sub_connections": [
+                    {
+                        "number": "4.6.2.2",
+                        "name": "Melting Welding through Liquid",
+                        "context": "Using molten metal for welding joints.",
+                        "sub_connections": [],
+                        "assembly_time": 67.56
+                    },
+                    {
+                        "number": "4.6.2.3",
+                        "name": "Melting Welding through Gas",
+                        "context": "Using gas flames for welding.",
+                        "sub_connections": [],
+                        "assembly_time": 67.56
+                    },
+                    {
+                        "number": "4.6.2.4",
+                        "name": "Melting Welding through Electric Discharge",
+                        "context": "Applying electric discharge for welding.",
+                        "sub_connections": [],
+                        "assembly_time": 67.56
+                    },
+                    {
+                        "number": "4.6.2.5",
+                        "name": "Melting Welding through Radiation",
+                        "context": "Fusing materials with radiation.",
+                        "sub_connections": [],
+                        "assembly_time": 67.56
+                    },
+                    {
+                        "number": "4.6.2.7",
+                        "name": "Melting Welding through Electric Current",
+                        "context": "Similar to electrical welding methods.",
+                        "sub_connections": [],
+                        "assembly_time": 67.56
+                    }
+                ],
+                "assembly_time": 67.56
+            }
+        ]
+    },
+    {
+        "number": "4.7",
+        "name": "Fastening through Soldering",
+        "context": "Joining electrical components with solder.",
+        "sub_connections": [
+            {
+                "number": "4.7.1",
+                "name": "Connecting Soft Soldering",
+                "context": "Using soft solder for electronics.",
+                "sub_connections": [
+                    {
+                        "number": "4.7.1.1",
+                        "name": "Connecting Soft Soldering through Solid Body",
+                        "context": "Soldering to a solid metal surface.",
+                        "sub_connections": [],
+                        "assembly_time": 17.56
+                    },
+                    {
+                        "number": "4.7.1.2",
+                        "name": "Connecting Soft Soldering through Liquid",
+                        "context": "Melting solder to connect components.",
+                        "sub_connections": [],
+                        "assembly_time": 17.56
+                    },
+                    {
+                        "number": "4.7.1.3",
+                        "name": "Connecting Soft Soldering through Gas",
+                        "context": "Using gas to heat and solder.",
+                        "sub_connections": [],
+                        "assembly_time": 17.56
+                    },
+                    {
+                        "number": "4.7.1.5",
+                        "name": "Connecting Soft Soldering through Radiation",
+                        "context": "Using radiation to assist in soldering.",
+                        "sub_connections": [],
+                        "assembly_time": 17.56
+                    },
+                    {
+                        "number": "4.7.1.7",
+                        "name": "Connecting Soft Soldering through Electric Current",
+                        "context": "Using current to melt solder.",
+                        "sub_connections": [],
+                        "assembly_time": 17.56
+                    },
+                    {
+                        "number": "4.7.1.8",
+                        "name": "Oven Soft Soldering",
+                        "context": "Using an oven to heat solder joints.",
+                        "sub_connections": [],
+                        "assembly_time": 487.56
+                    }
+                ],
+                "assembly_time": 17.56
+            },
+            {
+                "number": "4.7.2",
+                "name": "Connecting Hard Soldering",
+                "context": "Using hard solder for stronger connections.",
+                "sub_connections": [
+                    {
+                        "number": "4.7.2.2",
+                        "name": "Connecting Hard Soldering through Liquid",
+                        "context": "Melting hard solder for joints.",
+                        "sub_connections": [],
+                        "assembly_time": 52.56
+                    },
+                    {
+                        "number": "4.7.2.3",
+                        "name": "Connecting Hard Soldering through Gas (Flame Hard Soldering)",
+                        "context": "Using a flame for hard soldering.",
+                        "sub_connections": [],
+                        "assembly_time": 52.56
+                    },
+                    {
+                        "number": "4.7.2.4",
+                        "name": "Connecting Hard Soldering through Electric Discharge",
+                        "context": "Joining with electric discharge.",
+                        "sub_connections": [],
+                        "assembly_time": 52.56
+                    },
+                    {
+                        "number": "4.7.2.5",
+                        "name": "Connecting Hard Soldering through Radiation",
+                        "context": "Fusing metals with heat radiation.",
+                        "sub_connections": [],
+                        "assembly_time": 52.56
+                    },
+                    {
+                        "number": "4.7.2.7",
+                        "name": "Connecting Hard Soldering through Electric Current",
+                        "context": "Using electric current for hard soldering.",
+                        "sub_connections": [],
+                        "assembly_time": 52.56
+                    },
+                    {
+                        "number": "4.7.2.8",
+                        "name": "Connecting High-Temperature Soldering",
+                        "context": "Using high-temperature solder for durable joints.",
+                        "sub_connections": [],
+                        "assembly_time": 1807.56
+                    }
+                ],
+                "assembly_time": 52.56
+            }
+        ]
+    },
+    {
+        "number": "4.8",
+        "name": "Adhesive Bonding",
+        "context": "Using adhesives to join materials.",
+        "sub_connections": [
+            {
+                "number": "4.8.1",
+                "name": "Adhesive Bonding with Physically Setting Adhesives",
+                "context": "Using glues that harden over time.",
+                "sub_connections": [
+                    {
+                        "number": "4.8.1.1",
+                        "name": "Wet Bonding",
+                        "context": "Using wet adhesives for immediate bonding.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    },
+                    {
+                        "number": "4.8.1.2",
+                        "name": "Contact Bonding",
+                        "context": "Joining surfaces that touch.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    },
+                    {
+                        "number": "4.8.1.3",
+                        "name": "Activation Bonding",
+                        "context": "Using heat or light to activate adhesive.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    },
+                    {
+                        "number": "4.8.1.4",
+                        "name": "Adhesive Bonding",
+                        "context": "General adhesive bonding methods.",
+                        "sub_connections": [],
+                        "assembly_time": 7.56
+                    }
+                ],
+                "assembly_time": 7.56
+            },
+            {
+                "number": "4.8.2",
+                "name": "Adhesive Bonding with Chemically Setting Adhesives (Reaction Bonding)",
+                "context": "Using reactive adhesives for strong bonds.",
+                "sub_connections": [],
+                "assembly_time": 7.56
+            }
+        ]
+    },
+    {
+        "number": "4.9",
+        "name": "Textile Fastening",
+        "context": "Joining fabric through stitching or adhesives.",
+        "sub_connections": [],
+        "assembly_time": 15.12
+    }
+]
