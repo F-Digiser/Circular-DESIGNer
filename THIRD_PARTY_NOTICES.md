@@ -2,7 +2,7 @@
 
 ## Release scope
 
-This notice applies to Circular DESIGNer, release 1.0, built with Python 3.12.3 on 30th June 2026.
+This notice applies to Circular DESIGNer, release v1.0.0, built with Python 3.12.3 on 30th June 2026.
 
 The authoritative dependency inventory for this release is:
 
