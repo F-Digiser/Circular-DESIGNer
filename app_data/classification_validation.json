@@ -1,0 +1,377 @@
+{
+    "Complete Vehicle": {
+        "Body": {
+            "Hood": {
+                "Inner Part": {
+                        "Examples": [
+                            {
+                                "name": "StandardAssembly",
+                                "used_materials": ["S235JR", "TPU", "PA6_GF_40"],
+                                "number_of_components": 15,
+                                "number_of_materials": 3,
+                                "number_joining_connections": 6,
+                                "number_of_different_joining_connections": 3,
+                                "number_of_tools": 3,
+                                "disassembly_time [s]": "600",
+                                "assembly_time [s]": "600"
+                            },
+                            {
+                                "name": "HighStrengthAssembly",
+                                "used_materials": ["DP600", "S235JR", "Araldite_2011", "EN_AW_6060", "PP_GF_30"],
+                                "number_of_components": 22,
+                                "number_of_materials": 5,
+                                "number_joining_connections": 8,
+                                "number_of_different_joining_connections": 3,
+                                "number_of_tools": 4,
+                                "disassembly_time [s]": "450",
+                                "assembly_time [s]": "450"
+                            },
+                            {
+                                "name": "LightweightAssembly",
+                                "used_materials": ["S235JR", "PE", "TPU", "EN_AW_6060"],
+                                "number_of_components": 5,
+                                "number_of_materials": 4,
+                                "number_joining_connections": 6,
+                                "number_of_different_joining_connections": 3,
+                                "number_of_tools": 4,
+                                "disassembly_time [s]": "900",
+                                "assembly_time [s]": "900"
+                            }
+                        ],
+                        "Hinges": {
+                            "Examples": [
+                                {
+                                    "name": "Standard Hinge",
+                                    "used_materials": ["S235JR"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 2,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 1,
+                                    "disassembly_time [s]": "30",
+                                    "assembly_time [s]": "30"
+                                },
+                                {
+                                    "name": "High-Strength Hinge",
+                                    "used_materials": ["DP600"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 2,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 1,
+                                    "disassembly_time [s]": "40",
+                                    "assembly_time [s]": "40"
+                                }
+                            ]
+                        },
+                        "Screws": {
+                            "Examples": [
+                                {
+                                    "name": "Steel-Screw",
+                                    "used_materials": ["S235JR"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 1,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 1,
+                                    "disassembly_time [s]": "5",
+                                    "assembly_time [s]": "5"
+                                }
+                            ]
+                        },
+                        "Sockets": {
+                            "Examples": [
+                                {
+                                    "name": "Polyurethane Socket",
+                                    "used_materials": ["TPU"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 1,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 0,
+                                    "disassembly_time [s]": "5",
+                                    "assembly_time [s]": "5"
+                                },
+                                {
+                                    "name": "Metal Socket",
+                                    "used_materials": ["S235JR"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 1,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 1,
+                                    "disassembly_time [s]": "10",
+                                    "assembly_time [s]": "10"
+                                },
+                                {
+                                    "name": "Polyethylene Socket",
+                                    "used_materials": ["PE"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 1,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 1,
+                                    "disassembly_time [s]": "8",
+                                    "assembly_time [s]": "8"
+                                }
+                            ]
+                        },
+                        "Adhesives": {
+                            "Examples": [
+                                {
+                                    "name": "Epoxy Adhesive",
+                                    "used_materials": ["ARALDITE_2011"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 1,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 0,
+                                    "disassembly_time [s]": "120",
+                                    "assembly_time [s]": "120"
+                                },
+                                {
+                                    "name": "Polyurethane Adhesive",
+                                    "number_of_components": 1,
+                                    "used_materials": ["TPU"],
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 1,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 0,
+                                    "disassembly_time [s]": "90",
+                                    "assembly_time [s]": "90"
+                                }
+                            ]
+                        },
+                        "Reinforcement Parts": {
+                            "Examples": [
+                                {
+                                    "name": "Aluminium Plate",
+                                    "used_materials": ["EN_AW_6060"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 4,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 2,
+                                    "disassembly_time [s]": "60",
+                                    "assembly_time [s]": "60"
+                                },
+                                {
+                                    "name": "Composite Plate",
+                                    "used_materials": ["PA6_GF_40"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 1,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 1,
+                                    "disassembly_time [s]": "35",
+                                    "assembly_time [s]": "35"
+                                }
+                            ]
+                        },
+                        "Sheets": {
+                            "Examples": [
+                                {
+                                    "name": "Steel Sheet",
+                                    "used_materials": ["S235JR"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 2,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 1,
+                                    "disassembly_time [s]": "20",
+                                    "assembly_time [s]": "20"
+                                },
+                                {
+                                    "name": "Plastic Composite Sheet",
+                                    "used_materials": ["PP_GF_30"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 4,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 1,
+                                    "disassembly_time [s]": "25",
+                                    "assembly_time [s]": "25"
+                                }, 
+                                {
+                                    "name": "Aluminum Sheet",
+                                    "used_materials": ["EN_AW_6060"],
+                                    "number_of_components": 1,
+                                    "number_of_materials": 1,
+                                    "number_joining_connections": 3,
+                                    "number_of_different_joining_connections": 1,
+                                    "number_of_tools": 2,
+                                    "disassembly_time [s]": "30",
+                                    "assembly_time [s]": "30"
+                                }
+                            ]
+                        }
+                },
+                "Outer Part": {
+                    "Examples": [
+                    ],
+                    "Hood Sheet": {
+                        "Examples": [
+                        ]
+                    },
+                    "Decorative Elements": {
+                        "Examples": [
+                        ]
+                    }
+                },
+                "Opening Mechanism": {
+                    "Examples": [
+                    ]
+                }
+            }
+        },
+        "Electrical System": {
+            "Wiring Harness": {
+                "Cable Routing and Retention": {
+                    "Cable Clamps": {
+                        "Two-Part Cable Clamp Assembly": {
+                            "Examples": [
+                                {
+                                        "name": "Stiff Two-Part Cable Clamp Assembly",
+                                        "used_materials": ["PA6 GF30", "S235JR"],
+                                        "number_of_components": 8,
+                                        "number_of_materials": 2,
+                                        "number_joining_connections": 2,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "73",
+                                        "assembly_time [s]": "92"
+                                    },
+                                    {
+                                        "name": "Common Two-Part Cable Clamp Assembly",
+                                        "used_materials": ["PLASTIC_PA66", "S235JR"],
+                                        "number_of_components": 8,
+                                        "number_of_materials": 2,
+                                        "number_joining_connections": 2,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "73",
+                                        "assembly_time [s]": "92"
+                                    },
+                                    {
+                                        "name": "Higher Load, High Temperature, Pipe/Hose Retention Two-Part Cable Clamp Assembly",
+                                        "used_materials": ["S235JR"],
+                                        "number_of_components": 8,
+                                        "number_of_materials": 1,
+                                        "number_joining_connections": 2,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "75",
+                                        "assembly_time [s]": "95"
+                                    },
+                                    {
+                                        "name": "Lower Cost Two-Part Cable Clamp Assembly",
+                                        "used_materials": ["PP", "S235JR"],
+                                        "number_of_components": 8,
+                                        "number_of_materials": 2,
+                                        "number_joining_connections": 2,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "73",
+                                        "assembly_time [s]": "91"
+                                    }
+                            ],
+                            "Clamp Components": {
+                                "Examples": [
+                                    {
+                                        "name": "Stiff Cable Clamp Halve",
+                                        "used_materials": ["PA6 GF30"],
+                                        "number_of_components": 1,
+                                        "number_of_materials": 1,
+                                        "number_joining_connections": 2,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "3",
+                                        "assembly_time [s]": "6"
+                                    },
+                                    {
+                                        "name": "Common Cable Clamp Halve",
+                                        "used_materials": ["PLASTIC_PA66"],
+                                        "number_of_components": 1,
+                                        "number_of_materials": 1,
+                                        "number_joining_connections": 2,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "3",
+                                        "assembly_time [s]": "6"
+                                    },
+                                    {
+                                        "name": "Higher Load, High Temperature, Pipe/Hose Retention Cable Clamp Halve",
+                                        "used_materials": ["S235JR"],
+                                        "number_of_components": 1,
+                                        "number_of_materials": 1,
+                                        "number_joining_connections": 2,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "5",
+                                        "assembly_time [s]": "9"
+                                    },
+                                    {
+                                        "name": "Lower Cost Cable Clamp Halve",
+                                        "used_materials": ["PP"],
+                                        "number_of_components": 1,
+                                        "number_of_materials": 1,
+                                        "number_joining_connections": 2,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "3",
+                                        "assembly_time [s]": "5"
+                                    }
+                                ]
+                                },
+                            "Socket Head Cap Screws": {
+                                "Examples": [
+                                    {
+                                        "name": "Steel-Screw",
+                                        "used_materials": ["S235JR"],
+                                        "number_of_components": 1,
+                                        "number_of_materials": 1,
+                                        "number_joining_connections": 1,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "22.5",
+                                        "assembly_time [s]": "26"
+                                    }
+                                    ]
+                                },
+                            "Hex Nuts": {
+                                "Examples": [
+                                    {
+                                        "name": "Steel-Nut",
+                                        "used_materials": ["S235JR"],
+                                        "number_of_components": 1,
+                                        "number_of_materials": 1,
+                                        "number_joining_connections": 1,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "9",
+                                        "assembly_time [s]": "11.5"
+                                    }
+                                    ]
+                                },
+                            "Plain Washers": {
+                                "Examples": [
+                                    {
+                                        "name": "Steel-Washer",
+                                        "used_materials": ["S235JR"],
+                                        "number_of_components": 1,
+                                        "number_of_materials": 1,
+                                        "number_joining_connections": 1,
+                                        "number_of_different_joining_connections": 1,
+                                        "number_of_tools": 1,
+                                        "disassembly_time [s]": "2",
+                                        "assembly_time [s]": "3"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "categories": {
+        "Basic Parameters": [
+            "Name",
+            "Volume [mm^3]",
+            "Density [kg/mm^3]",
+            "Total mass [kg]",
+            "Lifespan [a]",
+            "Hierarchy",
+            "Classification",
+            "Standard Component"
+            
+        ],
+        "Disassembly": [
+            "Covered by",
+            "Connected with",
+            "Joining Connections"
+        ],
+        "Material": [
+            "Materials",
+            "Number of Types",
+            "Critical Materials",
+            "Monomaterial",
+            "Additives and Fillers",
+            "Surface Treatment",
+            "Country of Origin",
+            "Recycled Material Fraction",
+            "Input/Output Material Ratio",
+            "Packaging Material"
+        ],
+        "Development": [
+            "Material reduction in areas of low stress",
+            "Use of recycling-friendly methods",
+            "Tracking of recycling strategies",
+            "Efficiency testing through simulation",
+            "Robustness for long lifespan",
+            "Long-term high-quality appearance",
+            "Product and material labeling",
+            "Recognizability of recycling",
+            "Accessibility of critical raw materials",
+            "Recognizability of disposal",
+            "Potential for remanufacturing",
+            "Potential for upcycling"
+        ]
+    },
+    "param_mapping": {
+        "Name": "name",
+        "Volume [mm^3]": "volume [mm^3]",
+        "Density [kg/mm^3]": "density [kg/mm^3]",
+        "Total mass [kg]": "total mass [kg]",
+        "Lifespan [a]": "lifespan [a]",
+        "Hierarchy": "hierarchy",
+        "Classification": "classification",
+        "Standard Component": "standard_component",
+        "Covered by": "covered_by",
+        "Connected with": "connected_with",
+        "Joining Connections": "joining_connections",
+        "Materials": "materials",
+        "Number of Types": "number_of_types",
+        "Critical Materials": "critical_materials",
+        "Monomaterial": "monomaterial",
+        "Additives and Fillers": "additives_and_fillers",
+        "Surface Treatment": "surface_treatment",
+        "Country of Origin": "country_of_origin",
+        "Recycled Material Fraction": "recycled_material_fraction",
+        "Input/Output Material Ratio": "input_output_material_ratio",
+        "Packaging Material": "packaging_material",
+        "Material reduction in areas of low stress": "material_reduction_low_stress",
+        "Use of recycling-friendly methods": "recycling_friendly_methods",
+        "Tracking of recycling strategies": "tracking_recycling_strategies",
+        "Efficiency testing through simulation": "efficiency_testing_simulation",
+        "Robustness for long lifespan": "robustness_long_lifespan",
+        "Long-term high-quality appearance": "long_term_high_quality_appearance",
+        "Product and material labeling": "product_material_labeling",
+        "Recognizability of recycling": "recognizability_recycling",
+        "Accessibility of critical raw materials": "accessibility_critical_raw_materials",
+        "Recognizability of disposal": "recognizability_disposal",
+        "Potential for remanufacturing": "remanufacturing_potential",
+        "Potential for upcycling": "upcycling_potential"
+    }
+}

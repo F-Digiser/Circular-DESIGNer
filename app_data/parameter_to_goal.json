@@ -1,0 +1,128 @@
+{
+    "Material Selection": {
+        "Selection of recyclable materials": [
+            "parameter_monomaterial",
+            "parameter_recycling_content"
+        ],
+        "Selection of materials with high recycling rates": [
+            "parameter_recycling_content"
+        ],
+        "Selection of recycled materials": [
+            "parameter_recyclate_content"
+        ],
+        "Avoidance of recycling-critical materials": [
+            "parameter_recycling_criticality"
+        ],
+        "Avoidance of environmentally harmful materials": [
+            "parameter_environmental_harmfulness"
+        ],
+        "Avoidance of health harmful materials": [
+            "parameter_health_harmfulness"
+        ],
+        "Reduction of material diversity": [
+            "parameter_number_of_materials"
+        ],
+        "Avoidance of recycling-critical substances": [
+            "parameter_additives_or_fillers"
+        ],
+        "Avoidance of surface coatings": [
+            "parameter_surface_coatings"
+        ]
+    },
+    "Development": {
+        "Material reduction through constructive measures": [
+            "parameter_total_mass",
+            "parameter_material_reduction_low_stress"
+        ],
+        "Reduction of mass": [
+            "parameter_total_mass"
+        ],
+        "Material reduction in low stress areas": [
+            "parameter_material_reduction_low_stress"
+        ],
+        "Reduction in the number of individual parts": [
+            "parameter_number_of_components"
+        ],
+        "Recycling-friendly design": [
+            "parameter_recycling_friendly_methods",
+            "parameter_tracking_recycling_strategies"
+        ],
+        "Maximise the share of parts to which Design for Recycling principles have been applied": [
+            "parameter_recycling_friendly_methods"
+        ],
+        "Compatibility and standardization": [
+            "parameter_standardization"
+        ]
+    },
+    "Production and Manufacturing": {
+        "Avoiding waste and losses in production/increasing material productivity": [
+            "parameter_efficiency_testing_simulation"
+        ],
+        "Ease of assembly": [
+            "parameter_assembly_time"
+        ]
+    },
+    "Logistics": {
+        "Reduction of transport routes": [
+            "parameter_origin"
+        ]
+    },
+    "Use": {
+        "Promotion of reduced consumption/emotional durability": [
+            "parameter_lifespan",
+            "parameter_robustness_long_lifespan",
+            "parameter_long_term_high_quality_appearance"
+        ],
+        "Identifiability/recognizability (labeling)": [
+            "parameter_product_material_labeling"
+        ]
+    },
+    "End of Life": {
+        "Avoidance of post-consumer waste": [
+            "parameter_recognizability_disposal"
+        ],
+        "Recognizability of handling after use for consumers": [
+            "parameter_recognizability_recycling"
+        ],
+         "Reduction of joints": [
+            "parameter_number_of_joints"
+        ],
+         "Standardization of joints": [
+            "parameter_number_of_joints_types"
+        ],
+        "Minimise the number of tools": [
+            "parameter_used_tools"
+        ],
+        "Reduction and standardization of joints": [
+            "parameter_number_of_joints",
+            "parameter_number_of_joints_types",
+            "parameter_used_tools"
+        ],
+        "Ease of disassembly (maintenance)": [
+            "parameter_disassembly_time",
+            "parameter_joints_non_destructive"
+        ],
+        "Maximise the share of non-destructive joints": [
+            "parameter_joints_non_destructive"
+        ],
+        "Minimise disassembly time": [
+            "parameter_disassembly_time"
+        ],
+        "Ease of disassembly (recycling)": [
+            "parameter_joints_ageing",
+            "parameter_disassembly_time"
+        ],
+        "Accessibility of recycling-critical, environmentally and health-harmful materials": [
+            "parameter_accessibility_critical_raw_materials"
+        ],
+        "Potential for remanufacturing": [
+            "parameter_remanufacturing_potential"
+        ],
+        "Potential for upcycling": [
+            "parameter_upcycling_potential"
+        ],
+        "Maximise the share of parts with a defined and viable recycling route": [
+            "parameter_tracking_recycling_strategies"
+        ]
+    }
+}
