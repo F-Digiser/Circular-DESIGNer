@@ -169,3 +169,15 @@ When referencing this software in a report, deliverable or publication, use:
 
 Please also cite the applicable Catena-X semantic-model, AAS API, BPDM, BPN Discovery and Tractus-X SDK documentation used for the specific deployment or release.
 
+### Acknowledgement
+This work was funded by the European Union's Horizon
+Europe research and innovation programme, under
+No. 101138034 as part of the project Zero Emission electric
+Vehicles enabled by haRmonised circularity (ZEvRA).
+Views and opinions expressed are however those of the
+authors only and do not necessarily reflect those of the
+European Union or the European Climate, Infrastructure and
+Environment Executive Agency (CINEA). Neither the
+European Union nor the CINEA can be held responsible for
+them.
+
