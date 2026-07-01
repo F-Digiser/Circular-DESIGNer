@@ -17,7 +17,7 @@ Requirements:
 
 This release has been built and tested on Windows 11. Compatibility with other Windows versions is not guaranteed unless explicitly stated.
 
-1. Download the package from the release page.
+1. Download the package from https://zenodo.org/records/21030411.
 2. If it is distributed as a ZIP archive, extract the complete archive before starting it.
 3. Start `circular_designer.exe`, e.g. by double-clicking.
 
