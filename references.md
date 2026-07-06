@@ -1,6 +1,92 @@
 # References
 
-## app_data/joining_connections.json
+## app_data/materials_validation.json
+
+The values in app_data/materials_validation.json are screening-level model inputs intended for illustrative and comparative use only.
+
+They are based on publicly available sources, calculations, and assumptions. No confidential, proprietary, non-public, or supplier-provided information obtained under confidentiality was used.
+
+Unless an individual entry explicitly states otherwise, values in this file are not official manufacturer specifications, product declarations, certificates, test results, or verified current product data. They may not apply to every grade, configuration, thickness, manufacturing location, production period, or end-of-life route.
+
+Material and trade names are used solely to identify the relevant materials or products. This repository is not affiliated with, sponsored by, or endorsed by any manufacturer or supplier.
+
+The data should not be used as the sole basis for procurement, product certification, regulatory compliance, safety decisions, or engineering design.
+
+### Litecor
+
+This entry is a public-source screening model for LITECOR®, not a current supplier
+specification, product declaration, procurement specification, or engineering approval.
+
+LITECOR® is used only as a product/trademark identifier. This repository is independent
+and is not affiliated with, endorsed by, or based on confidential information from
+thyssenkrupp or any supplier.
+
+Values explicitly identified as “estimated”, “assumed”, or “screening inputs” are model
+assumptions selected by the repository maintainers. They are not verified LITECOR®
+product data and should not be interpreted as applying to every grade, thickness, region,
+or end-of-life route.
+
+#### density 
+
+**Public-source-derived apparent density for one historical configuration.**
+
+Reference [45] reports a `0.2 + 0.4 + 0.2 = 0.80 mm` LITECOR® configuration with a
+mass per unit area of `3.50 kg/m²`.
+
+Dataset value:
+`3.50 kg/m² ÷ 0.00080 m = 4,375 kg/m³`
+
+This is a derived apparent density for that nominal configuration, not a universal
+supplier-stated density. Other Litecor configurations may have different values.
+
+[45] ThyssenKrupp Steel Europe, compact steel: The ThyssenKrupp Steel Europe Customer Magazine, no. 01/2014, 2014. https://www.thyssenkrupp-steel.com/media/content_1/publikationen/compact_steel_2014_1_de.pdf
+
+#### recycling_percentage & recyclate_content
+
+**Illustrative screening-model inputs; not verified LITECOR® product data.**
+
+| Material stream | Assumed mass fraction | Assumed end-of-life recycling rate | Assumed recycled input content |
+|---|---:|---:|---:|
+| Steel-containing layers | 90% | 90% | 25% |
+| Polymer core | 10% | 41% | 0% |
+
+Under these assumptions:
+- Estimated end-of-life recycling rate: `0.90 × 0.90 + 0.10 × 0.41 = 85%`
+- Estimated recycled input content: `0.90 × 0.25 + 0.10 × 0 = 22.5%`
+
+These values are scenario assumptions, not measured Litecor recycling performance.
+For externally sourced benchmarks, specify the geography, reporting year, recycling
+definition, and source for each input.
+
+#### recycling_criticality
+
+**Screening-level engineering assessment; not a measured end-of-life result.**
+
+Public literature describes a layered construction comprising steel faces, zinc corrosion
+protection, and a PA6/PE/additive polymer core. Relative to monolithic steel, this
+construction may require additional separation and material-quality-management steps at
+end of life. Actual recycling outcomes depend on the dismantling, shredding, separation,
+and recycling route available in the relevant region.
+
+#### additives_or_fillers
+Public literature reports, for a tested configuration, a polymer core comprising
+52 wt.% PA6, 36 wt.% PE, and 12 wt.% unspecified other additives. The sources do not
+identify those additives or establish that they are fillers. This composition is reported
+for the studied material/configuration and should not be treated as universal.
+
+[46] T. Trzepieciński, A. Kubit, and J. Slota, “Assessment of the tribological properties of the steel/polymer/steel sandwich material LITECOR,” Lubricants, vol. 10, no. 5, Art. no. 99, 2022, doi: 10.3390/lubricants10050099.
+
+#### surface_coatings
+Public literature reports galvanized steel cover layers and zinc corrosion protection for
+tested Litecor configurations. This should not be read as confirmation that every Litecor
+grade, thickness, or production period uses the same coating system, coating mass, or
+surface finish.
+
+[46] T. Trzepieciński, A. Kubit, and J. Slota, “Assessment of the tribological properties of the steel/polymer/steel sandwich material LITECOR,” Lubricants, vol. 10, no. 5, Art. no. 99, 2022, doi: 10.3390/lubricants10050099.
+
+[47] A. Kubit, M. Korzeniowski, M. Bobusia, K. Ochałek, and J. Slota, “Analysis of the possibility of forming stiffening ribs in Litecor metal-plastic composite using the single point incremental forming method,” Key Engineering Materials, vol. 926, pp. 802–814, 2022, doi: 10.4028/p-i92gl3.
+
+## joining_connections.json
 
 ### 4
 
