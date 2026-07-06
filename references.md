@@ -86,7 +86,7 @@ surface finish.
 
 [47] A. Kubit, M. Korzeniowski, M. Bobusia, K. Ochałek, and J. Slota, “Analysis of the possibility of forming stiffening ribs in Litecor metal-plastic composite using the single point incremental forming method,” Key Engineering Materials, vol. 926, pp. 802–814, 2022, doi: 10.4028/p-i92gl3.
 
-## joining_connections.json
+## app_data/joining_connections.json
 
 ### 4
 
