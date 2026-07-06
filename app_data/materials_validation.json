@@ -275,12 +275,12 @@
                 }
             }
         },
-        "Litecore": {
+        "Litecor": {
             "recycling_percentage": 85,
-            "recyclate_content": 22.4,
-            "density [kg/mm^3]": 3.5e-06,
+            "recyclate_content": 22.5,
+            "density [kg/mm^3]": 4.375e-06,
             "recycling_criticality": true,
-            "environmental_harmfulness": true,
+            "environmental_harmfulness": false,
             "health_harmfulness": false,
             "monomaterial": false,
             "additives_or_fillers": true,
