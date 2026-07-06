@@ -1,0 +1,181 @@
+{
+    "project_name": "test",
+    "version": "1",
+    "data": [
+        {
+            "id": "ed1753b0-cba6-4eea-9333-3ab3128e40c3",
+            "name": "CABLE_CLAMP_ASSEMBLY",
+            "volume [mm^3]": 78285.69888174173,
+            "density [kg/mm^3]": null,
+            "material": null,
+            "mass [kg]": 0.3029757927731097,
+            "total mass [kg]": 0.3029757927731097,
+            "components": [
+                {
+                    "id": "a80cfded-b290-4eb8-89e9-c129a3471649",
+                    "name": "CABLE_CLAMP_BASE",
+                    "volume [mm^3]": 38595.64239147895,
+                    "density [kg/mm^3]": 7.85e-06,
+                    "material": "DC_01",
+                    "mass [kg]": 0.3029757927731097,
+                    "total mass [kg]": 0.3029757927731097,
+                    "components": [],
+                    "basic_parameters": {
+                        "lifespan [a]": "1",
+                        "standard_component": "No",
+                        "classification": "Hinges"
+                    },
+                    "assessed": false,
+                    "disassembly_parameters": {
+                        "assigned_connections": {},
+                        "is_joining_component": false,
+                        "covered_by": [],
+                        "joining_components": []
+                    },
+                    "material_parameters": {
+                        "number_of_materials": 1,
+                        "material_fractions": [
+                            {
+                                "type": "DC_01",
+                                "percentage": 100.0
+                            }
+                        ],
+                        "DC_01": {},
+                        "assessed_material": "DC_01"
+                    },
+                    "development_parameters": {
+                        "material_reduction_low_stress": "No",
+                        "recycling_friendly_methods": "No",
+                        "tracking_recycling_strategies": "No",
+                        "efficiency_testing_simulation": "No",
+                        "robustness_long_lifespan": "No",
+                        "long_term_high_quality_appearance": "No",
+                        "product_material_labeling": "No",
+                        "recognizability_recycling": "No",
+                        "accessibility_critical_raw_materials": "No",
+                        "recognizability_disposal": "No",
+                        "remanufacturing_potential": "No",
+                        "upcycling_potential": "No"
+                    }
+                },
+                {
+                    "id": "0f49d5e6-dd38-43af-8cea-935b3ce1ddbb",
+                    "name": "CABLE_CLAMP_COVER",
+                    "volume [mm^3]": 30822.62246070081,
+                    "density [kg/mm^3]": null,
+                    "material": null,
+                    "mass [kg]": null,
+                    "total mass [kg]": null,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {}
+                    }
+                },
+                {
+                    "id": "9b88d89e-f8e2-45f7-8aae-44003bcff662",
+                    "name": "PLAIN_WASHER_M8_1",
+                    "volume [mm^3]": 233.03077667267652,
+                    "density [kg/mm^3]": null,
+                    "material": null,
+                    "mass [kg]": null,
+                    "total mass [kg]": null,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {}
+                    }
+                },
+                {
+                    "id": "701b79bf-cad1-4bc5-a210-0992879c378e",
+                    "name": "SOCKET_HEAD_CAP_SCREW_M8X35_1",
+                    "volume [mm^3]": 3360.1113093540757,
+                    "density [kg/mm^3]": null,
+                    "material": null,
+                    "mass [kg]": null,
+                    "total mass [kg]": null,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {}
+                    }
+                },
+                {
+                    "id": "7b0fee4a-ab68-4034-a4c0-aea4dca7b418",
+                    "name": "PLAIN_WASHER_M8_2",
+                    "volume [mm^3]": 233.03077667267652,
+                    "density [kg/mm^3]": null,
+                    "material": null,
+                    "mass [kg]": null,
+                    "total mass [kg]": null,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {}
+                    }
+                },
+                {
+                    "id": "66fcf34d-2f05-424a-99f3-4ffbbced21b5",
+                    "name": "HEX_NUT_M8_1",
+                    "volume [mm^3]": 607.5441520815457,
+                    "density [kg/mm^3]": null,
+                    "material": null,
+                    "mass [kg]": null,
+                    "total mass [kg]": null,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {}
+                    }
+                },
+                {
+                    "id": "22ff071c-9f20-4d5d-8439-bf8bd60f2c95",
+                    "name": "PLAIN_WASHER_M8_3",
+                    "volume [mm^3]": 233.03077667267652,
+                    "density [kg/mm^3]": null,
+                    "material": null,
+                    "mass [kg]": null,
+                    "total mass [kg]": null,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {}
+                    }
+                },
+                {
+                    "id": "cb44dc2d-e441-4976-bd6a-851ba9a7186c",
+                    "name": "SOCKET_HEAD_CAP_SCREW_M8X35_2",
+                    "volume [mm^3]": 3360.1113093540757,
+                    "density [kg/mm^3]": null,
+                    "material": null,
+                    "mass [kg]": null,
+                    "total mass [kg]": null,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {}
+                    }
+                },
+                {
+                    "id": "e069abb0-d9c4-4059-96ac-7d8374ce846c",
+                    "name": "PLAIN_WASHER_M8_4",
+                    "volume [mm^3]": 233.03077667267652,
+                    "density [kg/mm^3]": null,
+                    "material": null,
+                    "mass [kg]": null,
+                    "total mass [kg]": null,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {}
+                    }
+                },
+                {
+                    "id": "a4cd3c15-b574-44c4-9f4a-60f81024b9fc",
+                    "name": "HEX_NUT_M8_2",
+                    "volume [mm^3]": 607.5441520815457,
+                    "density [kg/mm^3]": null,
+                    "material": null,
+                    "mass [kg]": null,
+                    "total mass [kg]": null,
+                    "components": [],
+                    "disassembly_parameters": {
+                        "assigned_connections": {}
+                    }
+                }
+            ]
+        }
+    ]
+}
