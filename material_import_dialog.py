@@ -158,7 +158,7 @@ class MaterialImportDialog(QDialog):
         self.materials_db_path_edit = QLineEdit()
 
         self.materials_db_path_edit.setText(
-            str(Path(__file__).resolve().parent / "materials_validation.json")
+            str(Path(__file__).resolve().parent / "app_data/materials_validation.json")
         )
 
         self.mock_mode_checkbox = QCheckBox("Mock mode")
